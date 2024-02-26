@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a,maks;
+    
+    maks=0; 
+    cout << "Podaj kolejne dlugosci skokow" << end1;
+    cin >> a;
+    
+    while (a!=0)
+    {
+    if (a>maks) maks = a; 
+    cin >> a;
+    }
+    cout << "\nNajdluzszy skok: " << maks << " m" << end1;
+
+    return 0;
+}
